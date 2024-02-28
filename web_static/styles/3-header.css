@@ -1,11 +1,13 @@
-/*
- * === Header style ===
- */
-
-/* Header style */
 header {
-  background: #fff url('../images/logo.png') 20px center no-repeat;
-  border-bottom: 1px solid #ccc;
-  height: 70px;
-  width: 100%;
+    background-color: #484848;
+    color: white;
+}
+
+.logo {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    background-image: url('../images/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 20px;
 }
